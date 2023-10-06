@@ -1,0 +1,12 @@
+{
+  "proxy": true,
+  "hilos": 10,
+  "timeout": 5,
+  "user_agent":"KirbyScan",
+  "proxies": [
+    {
+      "ip": "127.0.0.1",
+      "port": 9050
+    }
+  ]
+}

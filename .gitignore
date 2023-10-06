@@ -1,0 +1,10 @@
+# Archivos compilados
+/target/
+
+# Archivos de configuración del IDE (por ejemplo, para VSCode o IntelliJ)
+.vscode/
+.idea/
+Cargo.lock
+
+# Otras carpetas o archivos que desees ignorar
+# config.secret.toml/target
