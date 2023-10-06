@@ -45,8 +45,8 @@ impl Config {
         if config.hilos < recommended_threads {
             println!("Hilos recomendados: {}", recommended_threads);
         } else if config.hilos > recommended_threads {
-            println!("Demasiados hilos en la configuración. Usando {} hilos recomendados.", recommended_threads);
-            config.hilos = recommended_threads;
+            println!("Demasiados hilos en la configuración. Usando 10 de {} hilos recomendados.", recommended_threads);
+            config.hilos = 10;
         }
 
         Ok(config)
